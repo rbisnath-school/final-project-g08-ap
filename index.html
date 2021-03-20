@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/javascript.js"></script>
     <title>Amazon Prime</title>
 </head>
 <body>
@@ -25,12 +26,12 @@
         <div class="topheader">
             <div class="topheaderexplore"><h1>Explore</h1></div>
             <div class="topheaderbuttons">
-                <div class="search"><a href="#">SEARCH</a></div>
-                <div class="filter"><a href="#">FILTER</a></div>
+                <div class="search">SEARCH</div>
+                <div id="filter" class="filter">FILTER</div>
             </div>
         </div>
 
-        <div class="filtercontainer">
+        <div class="filtercontainer" id="filtercontainer">
             <div class="filterrow1">
                 <div id="actionfilter" class="filterbutton">Action</div>
                 <div id="adventurefilter" class="filterbutton">Adventure</div>                

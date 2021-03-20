@@ -1,4 +1,3 @@
-/* our css*/
 
 @font-face {
     font-family: 'EmberRegular';
@@ -105,15 +104,6 @@ body {
     justify-content: flex-end; 
 }
 
-.topheaderbuttons a {
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
-
-}
-
 .search, .filter {
     background-image: url(../images/button.png);
     height: 60px;
@@ -122,10 +112,16 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
 }
 
 .filtercontainer {
     padding-left: 25px;
+    display: none;
 }
 
 .filterrow1 {
