@@ -1,6 +1,114 @@
 /* our css*/
 
+
+
 body {
     background-color: black;
     color: white;
+}
+
+.main {
+    width: 1440px;
+}
+
+.hero {
+    height: 812px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url(../images/hero.png);
+}
+
+.featured {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.featured a {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.continuewatching, .top10thisweek, .newthisweek, .newtrailers, .buyorrent {
+    height: 113px;
+    width: 258px;
+    background-image: url(../images/lrgbutton.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.topheader {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.topheaderbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end; 
+}
+
+.topheaderbuttons a {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.search, .filter {
+    background-image: url(../images/button.png);
+    height: 60px;
+    width: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tvseries {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tvseries a {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.seealltvseries {
+    height: 153px;
+    width: 258px;
+    background-image: url(../images/seeall.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
 }
