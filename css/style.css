@@ -124,6 +124,53 @@ body {
     cursor: pointer;
 }
 
+.filtercontainer {
+    padding-left: 25px;
+}
+
+.filterrow1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.filterrow2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+
+}
+
+
+.filterbutton {
+    background-image: url(../images/filterbutton.png);   
+    height: 47px;
+    width: 110px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+}
+
+.clearbutton {
+    background-image: url(../images/clearbutton.png);   
+    height: 47px;
+    width: 110px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+}
+
 .titlecontainer {
     padding: 20px;
 }
@@ -145,8 +192,6 @@ body {
 .title {
     cursor: pointer;
 }
-
-
 
 .seealltvseries {
     height: 153px;
