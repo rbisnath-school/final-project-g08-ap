@@ -85,7 +85,7 @@ body {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
 
@@ -94,6 +94,8 @@ body {
 .topheader H1 {
     font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
     font-size: 60px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .topheaderbuttons {
@@ -126,6 +128,12 @@ body {
     padding: 20px;
 }
 
+.titlecontainer H3 {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
 .titlelistings {
     display: flex;
     flex-direction: row;
@@ -145,4 +153,9 @@ body {
     justify-content: center;
     cursor: pointer;
 
+}
+
+.primestyle {
+    color: #00A8E1;
+    font-size: 35px;
 }
