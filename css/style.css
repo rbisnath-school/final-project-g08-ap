@@ -20,13 +20,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'EmberLight';
+    src: url('../images/webfonts/AmazonEmber_W_Lt.eot');
+    src: url('../images/webfonts/AmazonEmber_W_Lt.eot?#iefix') format('embedded-opentype'),
+         url('../images/webfonts/AmazonEmber_W_Lt.woff') format('woff'),
+         url('../images/webfonts/AmazonEmber_W_Lt.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: black;
     color: white;
-
-}
-
-.main {
 
 }
 
@@ -40,6 +46,10 @@ body {
     background-image: url(../images/hero.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.logo img {
+    height: 61px;
 }
 
 .featured {
@@ -59,7 +69,7 @@ body {
 
 }
 
-.continuewatching, .top10thisweek, .newthisweek, .newtrailers, .buyorrent {
+.featuredButton {
     height: 113px;
     width: 258px;
     background-image: url(../images/lrgbutton.png);
@@ -81,6 +91,11 @@ body {
 
 }
 
+.topheader H1 {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    font-size: 60px;
+}
+
 .topheaderbuttons {
     display: flex;
     flex-direction: row;
@@ -93,7 +108,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: 'EmberMedium';
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
 
 }
 
@@ -107,22 +122,19 @@ body {
     cursor: pointer;
 }
 
-.tvseries {
+.titlecontainer {
+    padding: 20px;
+}
+
+.titlelistings {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px;
-}
-
-.tvseries a {
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
 
 }
+
+
 
 .seealltvseries {
     height: 153px;
