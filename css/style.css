@@ -4,7 +4,18 @@
     font-family: 'EmberRegular';
     src: url('../images/webfonts/AmazonEmber_W_Rg.eot');
     src: url('../images/webfonts/AmazonEmber_W_Rg.eot?#iefix') format('embedded-opentype'),
-         url('../images/webfonts/AmazonEmber_W_Rg.woff') format('woff');
+         url('../images/webfonts/AmazonEmber_W_Rg.woff') format('woff'),
+         url('../images/webfonts/AmazonEmber_W_Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EmberMedium';
+    src: url('../images/webfonts/AmazonEmber_W_Bd.eot');
+    src: url('../images/webfonts/AmazonEmber_W_Bd.eot?#iefix') format('embedded-opentype'),
+         url('../images/webfonts/AmazonEmber_W_Bd.woff') format('woff'),
+         url('../images/webfonts/AmazonEmber_W_Bd.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,7 +23,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'EmberRegular';
+
 }
 
 .main {
@@ -27,6 +38,8 @@ body {
     justify-content: space-between;
     padding: 20px;
     background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .featured {
@@ -40,7 +53,7 @@ body {
 .featured a {
     font-size: 25px;
     color: white;
-
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
     text-align: center;
     text-decoration: none;
 
@@ -54,6 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
 
 }
 
@@ -77,9 +91,9 @@ body {
 .topheaderbuttons a {
     font-size: 25px;
     color: white;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
+    font-family: 'EmberMedium';
 
 }
 
