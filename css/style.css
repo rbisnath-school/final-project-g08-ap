@@ -1,14 +1,22 @@
 /* our css*/
 
-
+@font-face {
+    font-family: 'EmberRegular';
+    src: url('../images/webfonts/AmazonEmber_W_Rg.eot');
+    src: url('../images/webfonts/AmazonEmber_W_Rg.eot?#iefix') format('embedded-opentype'),
+         url('../images/webfonts/AmazonEmber_W_Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background-color: black;
     color: white;
+    font-family: 'EmberRegular';
 }
 
 .main {
-    width: 1440px;
+
 }
 
 .hero {
@@ -32,7 +40,7 @@ body {
 .featured a {
     font-size: 25px;
     color: white;
-    font-weight: bold;
+
     text-align: center;
     text-decoration: none;
 
