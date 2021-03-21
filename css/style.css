@@ -32,6 +32,7 @@
 body {
     background-color: black;
     color: white;
+    margin: auto;
 
 }
 
@@ -43,6 +44,18 @@ body {
     justify-content: space-between;
     padding: 20px;
     background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.continue {
+    height: 788px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background-image: url(../images/luminaries.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -203,4 +216,68 @@ body {
 .primestyle {
     color: #00A8E1;
     font-size: 35px;
+}
+
+.profilelist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-top: 80px;
+}
+
+.largeprofile {
+    width: 176px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.smallprofile {
+    width: 135px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #97999A;
+}
+
+
+.profilename {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+ 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.editprofile {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #97999A;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.profileheader {
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profilesubheader {
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
 }
