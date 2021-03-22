@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-
+    height: 812px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -219,6 +219,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+    margin-left: 20px;
 }
 
 .filtercontainer {
