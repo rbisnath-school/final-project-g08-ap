@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-    height: 812px;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -48,16 +48,105 @@ body {
     background-position: center;
 }
 
-.continue {
+.watch {
+    background-image: url(../images/luminaries.png);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 788px;
+}
+
+.trailer {
+    background-image: url(../images/icarealot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 788px;
+}
+
+.controlbar {
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 
-    background-image: url(../images/luminaries.png);
-    background-repeat: no-repeat;
-    background-position: center;
+
+}
+
+.details {
+    margin-left: 75px;
+    font-family: 'EmberRegular', Helvetica, Arial, sans-serif;
+    wid
+}
+
+.titlename {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 75px;
+    margin-top: 100px;
+
+}
+
+.cardtext {
+    width: 576px;
+}
+
+.categorization {
+    margin-top: 30px;
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+}
+
+.primaryfilmmeta {
+    margin-top: 20px;
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.secondaryfilmmeta {
+    margin-top: 20px;
+}
+
+.watchoptions {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.metadetail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.metalabel {
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    width: 200px;
+}
+
+
+
+.watchbutton {
+    background-image: url(../images/watchbutton.png);   
+    height: 60px;
+    width: 199px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'EmberLight', Helvetica, Arial, sans-serif;
+}
+
+.prompt {
+    color: #00A8E1;
+    font-family: 'EmberMedium', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
 }
 
 .logo img {
